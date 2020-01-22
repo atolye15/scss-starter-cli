@@ -10,6 +10,11 @@ if (!shell.which('git')) {
   shell.exit(1);
 }
 
+if (!argv._[0]) {
+  shell.echo('Error: dosya yolunu girmediniz');
+  return;
+}
+
 if (shell.exec('git clone git@github.com:atolye15/scss-starter.git').code !== 0) {
   shell.echo('Error: git clone failed');
   shell.exit(1);

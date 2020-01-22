@@ -1,5 +1,5 @@
 {
-  "name": "scss-starter-cli",
+  "name": "@atolye15/scss-starter-cli",
   "version": "1.0.0",
   "license": "MIT",
   "main": "bin/scss-starter-cli.js",
