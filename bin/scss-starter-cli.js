@@ -10,6 +10,14 @@ if (!shell.which('git')) {
   shell.exit(1);
 }
 
+if (argv.help || argv.h) {
+  shell.echo('Usage: scss-starter-cli <path>');
+  shell.echo('');
+  shell.echo('Options:');
+  shell.echo('  --help, -h        output usage information');
+  return;
+}
+
 if (!argv._[0]) {
   shell.echo('Error: dosya yolunu girmediniz');
   return;
