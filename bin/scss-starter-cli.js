@@ -15,7 +15,7 @@ if (argv.help || argv.h) {
   shell.echo('');
   shell.echo('Options:');
   shell.echo('  --help, -h        output usage information');
-  shell.echo('    <project-directory> is required.');
+  shell.echo('    <path> is required.');
   return;
 }
 
