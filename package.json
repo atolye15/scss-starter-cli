@@ -12,7 +12,7 @@
   "devDependencies": {
     "@atolye15/eslint-config": "^1.1.1",
     "eslint": "^6.8.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "prettier": "^1.19.1",
     "shelljs": "^0.8.3"
   }
